@@ -1,8 +1,9 @@
-import React from 'react'
+import React from "react";
 
-import Products from './sections/products';
-import Films from './sections/films';
-import Users from './sections/users';
+import Products from "./sections/products";
+import Films from "./sections/films";
+import Users from "./sections/users";
+import Tabs from "./sections/tabs";
 
 function App() {
   return (
@@ -10,8 +11,9 @@ function App() {
       <Films />
       <Products />
       <Users />
+      <Tabs />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
