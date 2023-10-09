@@ -4,6 +4,7 @@ import Products from "./sections/products";
 import Films from "./sections/films";
 import Users from "./sections/users";
 import Tabs from "./sections/tabs";
+import Tools from "./sections/tools";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Products />
       <Users />
       <Tabs />
+      <Tools />
     </div>
   );
 }
