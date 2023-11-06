@@ -5,6 +5,7 @@ import Films from "./sections/films";
 import Users from "./sections/users";
 import Tabs from "./sections/tabs";
 import Tools from "./sections/tools";
+import ProfileCard from "./components/ProfileCard/ProfileCard";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Users />
       <Tabs />
       <Tools />
+      <ProfileCard />
     </div>
   );
 }

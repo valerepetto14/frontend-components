@@ -1,11 +1,10 @@
 import { AiFillHeart } from "react-icons/ai";
-import LogoTwitter from "../assets/Logo_Twitter.png";
 
 const ToolCard = ({ tool }) => {
   return (
     <div className="h-[400px] w-[350px]  group-hover:blur-sm hover:!blur-none rounded-xl shadow-2xl font-Poppins bg-white p-8 flex flex-col hover:scale-105 duration-300">
       <div className="w-full flex justify-start gap-5">
-        <img src={LogoTwitter} alt="logo" className="h-24 w-24 rounded-full" />
+        {/* <img src={LogoTwitter} alt="logo" className="h-24 w-24 rounded-full" /> */}
         <div className="flex flex-col gap-2 mt-3">
           <h2 className="text-lg font-medium">Twitter</h2>
           <div className="flex flex-wrap gap-2">
