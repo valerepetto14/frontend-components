@@ -98,7 +98,7 @@ const ProfileCard = ({ user }) => {
         </li>
       </ul>
       <div class="profile-name">
-        <h2>Melissa Taylor</h2>
+        <h2>Valentin Repetto</h2>
         <div class="profile-bio">
           I'm a JavaScript full-stack engineer, love working with <em>React</em>{" "}
           and <em>Node.js</em>.
