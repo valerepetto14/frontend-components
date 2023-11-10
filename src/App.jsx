@@ -6,6 +6,7 @@ import Users from "./sections/users";
 import Tabs from "./sections/tabs";
 import Tools from "./sections/tools";
 import ProfileCard from "./components/ProfileCard/ProfileCard";
+import OpenCloseButtonContainer from "./sections/openCloseButton";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Tabs />
       <Tools />
       <ProfileCard />
+      <OpenCloseButtonContainer />
     </div>
   );
 }

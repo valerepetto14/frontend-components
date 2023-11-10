@@ -7,3 +7,5 @@ const ProfileCardSection = () => {
     </div>
   );
 };
+
+export default ProfileCardSection;
