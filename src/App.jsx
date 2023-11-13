@@ -7,6 +7,7 @@ import Tabs from "./sections/tabs";
 import Tools from "./sections/tools";
 import ProfileCard from "./components/ProfileCard/ProfileCard";
 import OpenCloseButtonContainer from "./sections/openCloseButton";
+import SearchInputSection from "./sections/searchInput";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Tools />
       <ProfileCard />
       <OpenCloseButtonContainer />
+      <SearchInputSection />
     </div>
   );
 }
